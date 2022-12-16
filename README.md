@@ -15,7 +15,7 @@ add `pagination_easy` as a dependency in your `pubspec.yaml` file. and run `flut
 
 To use this plugin,
 
-```flutter
+```dart
 import 'package:pagination_easy/pagination_controller.dart';
 import 'package:pagination_easy/pagnation_widget.dart';
 
