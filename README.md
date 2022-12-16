@@ -64,5 +64,5 @@ add NotificationListener widget to be first widget in screen
 <p align="left">
 
 <a  href="https://t.me/Mobile_AppDeveloper" target="_blank"><img align="center"                                                                src="https://user-images.githubusercontent.com/83473041/208145434-4c4a9444-5d3f-4ca0-958c-8e72cb0b6e34.svg" alt="amjad_alhetary" height="40" width="40"/></a>
-<a  href="linkedin.com/in/amjed-hitari-883aab180" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amjad_alhetary" height="30" width="40" /></a>
+<a  href="https://www.linkedin.com/in/amjed-hitari-883aab180/" target="_blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="amjad_alhetary" height="30" width="40" /></a>
 <a  href="https://wa.me/967776399500" target="_blank"><img align="center" src="https://user-images.githubusercontent.com/83473041/208144638-45efc918-bb84-493b-8bc9-d80316b24aad.svg" alt="amjad_alhetary" height="30" width="40" /></a>
