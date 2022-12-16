@@ -15,10 +15,26 @@ add `pagination_easy` as a dependency in your `pubspec.yaml` file. and run `flut
 To use this plugin,
 
 ```flutter
+import 'package:pagination_easy/pagination_controller.dart';
+import 'package:pagination_easy/pagnation_widget.dart';
 
-  late PaginationMethod paginationMethod;
+
+late PaginationController paginationController;
   
-add is widget to be first widget in screen
+  
+   @override
+  void initState() {
+   paginationController =
+        PaginationController((int pageKey) => getData(pageKey));
+        
+    
+  }
+    Future<List<Product>> getData(int pageKey) async {
+    //write your code
+    }
+  
+  
+add NotificationListener widget to be first widget in screen
 
  NotificationListener<ScrollNotification>(
             onNotification: (scrollInfo) {
@@ -29,10 +45,10 @@ add is widget to be first widget in screen
                                       itemBuilder: (BuildContext context, item,
                                               int index) =>
                                           YourWidget(
-                                        child:..
+                                          product:item
                                       ),
                                       controller:
-                                          controller.paginationController,
+                                         paginationController,
                                       emptyWidget: const EmptyDataWidget(),
                                       bottomLoader: Center(
                                         child:
