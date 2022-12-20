@@ -20,27 +20,26 @@ import 'package:pagination_easy/pagination_controller.dart';
 import 'package:pagination_easy/pagnation_widget.dart';
 
 
-late PaginationController paginationController;
+late PaginationController<Product> paginationController;
   
   
    @override
   void initState() {
-   paginationController =
-        PaginationController((int pageKey) => getData(pageKey));
+     paginationController = PaginationController<Product>(
+             (int pageKey) => getData(pageKey));
         
     
   }
     Future<List<Product>> getData(int pageKey) async {
     //write your code
     }
-  
-  
-add NotificationListener widget to be first widget in screen
 
- NotificationListener<ScrollNotification>(
-            onNotification: (scrollInfo) {
-              return PaginationHelper.instance.onNotification(scrollInfo);
-            },
+
+
+    ///
+SingleChildScrollView(
+controller: controller.paginationController.scrollController,
+          
             child:...
                     PaginationWidget(
                                       itemBuilder: (BuildContext context, item,
